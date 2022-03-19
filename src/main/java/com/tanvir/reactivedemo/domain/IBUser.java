@@ -1,12 +1,13 @@
 package com.tanvir.reactivedemo.domain;
 
 import com.google.gson.GsonBuilder;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Data
-@RequiredArgsConstructor
+@AllArgsConstructor
 @NoArgsConstructor
 public class IBUser {
 
